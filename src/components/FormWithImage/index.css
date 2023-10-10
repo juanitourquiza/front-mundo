@@ -1,0 +1,32 @@
+.form-with-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer{
+    /* Layout Properties */
+top: 3744px;
+left: 0px;
+height: 96px;
+/* UI Properties */
+background: var(--unnamed-color-343434) 0% 0% no-repeat padding-box;
+background: #343434 0% 0% no-repeat padding-box;
+opacity: 1;
+}

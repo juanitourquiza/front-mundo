@@ -1,0 +1,10 @@
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide el contenedor en dos columnas */
+    align-items: center; /* Centra verticalmente el contenido */
+    gap: 20px; /* Espacio entre las dos columnas */
+  }
+  
+  .content-container > div {
+    justify-self: start; /* Alinea el contenido de la primera columna a la izquierda */
+  }

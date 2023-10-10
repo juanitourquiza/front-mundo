@@ -1,0 +1,10 @@
+/* Establece el color del texto de los enlaces en blanco */
+.navbar-custom .nav-link {
+    color: white !important;
+  }
+  
+  /* Establece el fondo de la barra de navegación en transparente */
+  .navbar-custom {
+    background-color: transparent !important;
+  }
+  
