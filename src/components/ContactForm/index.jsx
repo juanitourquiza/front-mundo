@@ -20,7 +20,7 @@ function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://phplaravel-1141527-3971099.cloudwaysapps.com/api/contact', formData);
+      await axios.post('https://phplaravel-1141527-3971099.cloudwaysapps.com/api/contact', formData);
       alert('Mensaje enviado con éxito');
       setFormData({
         name: '',
